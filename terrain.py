@@ -75,7 +75,7 @@ def start_selenium():
         'localhost',
         4444,
         '*firefox',
-        'http://daisy.maplecroft.com:8080')
+        'http://localhost:8000')
     world.sel.start()
 
 
