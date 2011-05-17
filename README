@@ -1,0 +1,19 @@
+A default terrain file for any Django users who want to use the excellent
+BDD package, "lettuce". (http://lettuce.it).
+
+Put the terrain file in your project root. See accounts/feature/ for an
+example usage -- this assumes you have an app called accounts which has 
+a forms.py file and a RegistrationForm(forms.ModelForm), for example,
+defined.
+
+It uses selenium (http://seleniumhq.org) to do some of the checks.
+
+
+Requirements:
+
+* lettuce
+* nose
+* selenium
+* lxml
+* and of course, django.
+
