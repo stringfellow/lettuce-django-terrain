@@ -3,7 +3,7 @@
 """The global lettuce functions.
 
 Defined here are a set of functions that allow the use of lettuce
-(http://lettuce.it) to perform BDD of maplecroft.com.
+(http://lettuce.it) to perform BDD.
 
 You are able to use the Django test Client to test template rendering and the
 response codes from requests etc. etc. or use Selenium to test the interface
